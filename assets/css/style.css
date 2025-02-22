@@ -9,6 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
+  background-image: url("");
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
@@ -228,9 +229,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/home/anam/gowtham/DHILIP-FOLDER/HTML_CSS/iPortfolio/assets/img/IMG_20231010_184237.jpg") top center;
+  background: url("assets/img/hero-bg.jpg") no-repeat center center;
   background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
 
 #hero:before {
   content: "";
@@ -1211,4 +1215,127 @@ ul li {
     margin-top: 30px;
   }
   
+}
+
+/* new */
+
+/* Section Title */
+.section-titles {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ff69b4;
+  margin-bottom: 30px;
+}
+
+/* Responsive Project Grid */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Project Card */
+.project-card {
+  background: #121212;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Project Image */
+.project-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Hover Icons */
+.project-links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-links a {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ff69b4;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+}
+
+.project-links a:hover {
+  background: #ff69b4;
+  color: #fff;
+}
+
+/* Show icons on hover */
+.project-card:hover .project-links {
+  opacity: 1;
+}
+
+/* Project Content */
+.project-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.project-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.project-content p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Tech Stack Badges */
+.tech-stack {
+  margin-top: 10px;
+}
+
+.tech-stack span {
+  background: #222;
+  color: #ff69b4;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-container {
+      flex-direction: column;
+      align-items: center;
+  }
 }
