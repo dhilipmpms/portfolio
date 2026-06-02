@@ -2,7 +2,6 @@
 
 A responsive, modern personal portfolio website showcasing projects, skills, and contact information. Built with HTML, CSS, and JavaScript to demonstrate web development expertise.
 
-![Portfolio Website](wallpaperflare.com_wallpaper\(9\).jpg)
 
 ---
 
@@ -133,7 +132,7 @@ portfolio/
 
 ---
 
-## 👨‍💻 About the Developer
+## 👨‍💻 About Me
 
 **Dhilip** is a third-year MSc student in Software Engineering with a passion for:
 - Backend development with Python and Django
@@ -182,31 +181,7 @@ See [changelog.txt](./changelog.txt) for detailed version history and updates.
 
 ---
 
-## 📄 License
 
-This project uses the **iPortfolio Bootstrap Template** with modifications.
-- **Template License:** [BootstrapMade License](https://bootstrapmade.com/license/)
-- **Original Template:** [iPortfolio by BootstrapMade](https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/)
-
----
-
-## 🤝 Contributing
-
-Suggestions and improvements are welcome! Feel free to:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
----
-
-## 📞 Support
-
-For questions or issues regarding this portfolio, please reach out via:
-- Email: dhilipmpms@gmail.com
-- GitHub Issues: [Portfolio Issues](https://github.com/dhilipmpms/portfolio/issues)
-
----
 
 **Last Updated:** June 2026
 
